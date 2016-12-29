@@ -1,0 +1,67 @@
+What Do I want?
+
+
+1. blog
+	- area for blog entries
+		- need a way to categorize
+		- tagging?
+	-
+2. demos
+	- todo lists
+		- react
+		- angular
+	- fun ui shit
+		- sockets
+		-
+
+3. micro-tutorials
+	- start out by making small tutorials for javascript native functions
+		- start with array.map()/.filter() etc.
+
+
+================================================================================
+Stage 1)
+================================================================================
+- stand up skeleton of site
+	- basic layout
+		- centered content
+		- nav bar at top
+	- four sections
+		- blog
+		- demos
+		- micro-tuts
+		- contact
+	- make first blog post
+		- use markdown?
+		- use fileSystem?
+		- store the shit in mongo?
+
+- need admin side as well so I can add posts
+	- see about making a ui for setting up a new entries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================================
+================================================================================
