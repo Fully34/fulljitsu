@@ -1,5 +1,12 @@
 extends ../layout
 
+block extraHeader
+    link(rel='stylesheet', href='css/common.css')
+
 block content
-  h1= title
-  p future home of some sweet content
+    div.main
+        div.content
+            ul
+                each page in pages
+                    li
+                        a(href=page) #{getName(page)}
