@@ -1,9 +1,16 @@
 extends ../../layout
 
-block extraHeader
-    link(rel='stylesheet', href='../css/common.css')
-
 block content
-    div.main
-        div.content
-            h1 HOWDY
+    div.main.container
+        section.content
+            div.row
+                article#welcome-module.col-sm-12.gutter-bottom
+                    div.panel.panel-default.module-container
+            div.row
+                article#demo-module.col-sm-8.gutter-bottom
+                    div.panel.panel-default.module-container
+                article#blog-module.col-sm-4.gutter-bottom
+                    div.panel.panel-default.module-container
+            div.row
+                article#tutorial-module.col-sm-12.gutter-bottom
+                    div.panel.panel-default.module-container

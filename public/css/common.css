@@ -6,3 +6,21 @@
   margin: 0 auto;
   height: 500px;
 }
+#welcome-module {
+  height: 300px;
+}
+#demo-module {
+  height: 500px;
+}
+#blog-module {
+  height: 500px;
+}
+#tutorial-module {
+  height: 300px;
+}
+.module-container {
+  height: 100%;
+}
+.gutter-bottom {
+  margin-bottom: 30px;
+}

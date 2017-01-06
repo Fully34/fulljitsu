@@ -5,8 +5,9 @@ html(lang='en')
     meta(name='viewport', content='width=device-width')
     title= title
     block css
-      link(rel='stylesheet', href='/css/style.css')
       link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+      link(rel='stylesheet', href='/css/common.css')
+      link(rel='stylesheet', href='/css/style.css')
     block js
       if ENV_DEVELOPMENT
         script(src='http://localhost:35729/livereload.js')
@@ -15,3 +16,10 @@ html(lang='en')
 
   body
     block content
+
+  script(src="/js/SiteWide.js")
+  script.
+    window.onload = function(){
+      var siteWide = new SiteWide();
+      siteWide.init();
+    }
