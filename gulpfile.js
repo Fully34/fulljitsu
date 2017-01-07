@@ -13,6 +13,7 @@ gulp.task('less', function () {
 });
 
 gulp.task('watch', function() {
+  gulp.watch('./public/css/modules/shared-components/*.less', ['less']);
   gulp.watch('./public/css/*.less', ['less']);
 });
 
