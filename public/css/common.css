@@ -9,24 +9,15 @@ body {
   margin: 0 auto;
   height: 500px;
 }
-#demo-module {
-  height: 500px;
-}
-#blog-module {
-  height: 500px;
-}
-#tutorial-module {
-  height: 300px;
-}
 .module-container {
   height: 100%;
 }
 .post-summary-container {
   padding: 10px;
-  border: 1px dashed #dedede;
+  border: 1px dashed #9c9c9c;
   border-radius: 10px;
   margin: 0 0 10px 0;
-  background-color: #f7f7f7;
+  background-color: #d8d7d7;
 }
 .post-summary-container .post-summary-header {
   position: relative;
